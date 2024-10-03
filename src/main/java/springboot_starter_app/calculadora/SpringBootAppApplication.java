@@ -1,4 +1,4 @@
-package springboot_starter_app;
+package springboot_starter_app.calculadora;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
