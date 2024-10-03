@@ -12,7 +12,8 @@ public class SpringBootApplicationMensagem {
     @Bean
     public CommandLineRunner run(SistemaMensagem sistema) {
         return args -> {
-
+            sistema.enviarConfirmacaoCadastro();
+            sistema.enviarMensagemBoasVindas();
         };
     }
 }
