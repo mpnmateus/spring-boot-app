@@ -32,6 +32,15 @@ public class ViaCepResponse {
     }
 
     @Override
+    public String toString() {
+        return "ViaCepResponse{" +
+                "cep='" + cep + '\'' +
+                ", logradouro='" + logradouro + '\'' +
+                ", localidade='" + localidade + '\'' +
+                '}';
+    }
+
+    @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
