@@ -10,7 +10,7 @@ import java.util.List;
 
 @Component
 public class SistemaMensagemProperties implements CommandLineRunner {
-    @Value("${name:NoReply-DIO}")
+    @Value("${name:NoReply-TechElite}")
     private String nome;
 
     @Value("${email}")
