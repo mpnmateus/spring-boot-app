@@ -14,7 +14,7 @@ public class SistemaMensagem {
         System.out.println("Seu cadastro foi aprovado!");
     }
     public void enviarMensagemBoasVindas(){
-        techTeam.setEmail("tech@dio.com.br");
+        techTeam.setEmail("tech@techelite.com.br");
         System.out.println(techTeam);
         System.out.println("Bem-vindo à Tech Elite");
     }
