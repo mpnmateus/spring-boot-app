@@ -9,7 +9,7 @@ import springboot_starter_app.calculadora.SpringBootAppApplication;
 @SpringBootApplication
 public class SpringBootApplicationCep {
     public static void main(String[] args) {
-        SpringApplication.run(SpringBootAppApplication.class, args);
+        SpringApplication.run(SpringBootApplicationCep.class, args);
     }
     @Bean
     public CommandLineRunner run(ConversorJson conversor) throws Exception {
